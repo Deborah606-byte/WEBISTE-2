@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    /* background-color: black; */
+    background-image: url(../IMAGES/b5.webp);
+    background-size: cover;
+}
+.navigationbar-container{
+    width: 100%;
+    background-color: bisque;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 0.5px;
+}
+.navlinks{
+    margin-left: auto;
+    list-style: none;
+    margin-top: 30px;
+}
+.navlinks li{
+    display: inline-block;
+}
+.navlinks li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: medium;
+    padding: 0 50px;
+} 
+h3{
+    color: orange;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poppins";
+
+}
+/* .container{
+   align-items: center; 
+}  */
+form{
+    /* position: absolute; */
+    box-sizing: content-box; 
+    /* text-align: center; */
+    color: black;
+    background-color: white;
+    width: 50%;
+    height: 115vh;
+    margin-left: 350px;
+}
+
+form input[type = "text"],
+form input[type = "email"]
+
+{
+    border: 1px solid orangered;
+    padding: 10px 12px;
+    border-radius: 1.0em;
+    width: 95%;
+    margin: 5px;
+    color: blue;
+}
+label{
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 700;
+    
+}
+select{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid orangered;
+    margin-top: 10px;
+    border-radius: 1.0em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+textarea{
+    width: 100%;
+    border-radius: 1.0em;
+    margin-top: 40px;
+    resize: none;
+    border: 1px solid orangered;
+    background-color: bisque;
+    font-weight: 700;
+    box-sizing: border-box;
+
+}
+form input[type = "submit"]
+{
+    margin-top: 40px;
+    width: 100%;
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid orangered;
+    border-radius: 1.0em;
+ 
+}
+form input[type = "submit"]:hover{
+    background: bisque;
+    cursor: pointer;
+    font-weight: 700;
+}
+hr{
+    margin-top: 120px;
+    border-top: 2px dashed orangered;
+}
+.container2{
+    max-width: 100%;
+    margin: auto;
+}
+.column{
+    display: flex;
+    flex: wrap;
+}
+.foot{
+    padding: 15px;
+}
+.foot-col{
+    width: 25%;
+}
+.foot-col{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    position: relative;
+    color: bisque;
+}
+.foot-col ul li:not(:last-child){
+    margin-bottom: 20px;
+}
+.foot-col ul{
+    list-style: none;
+}
+.foot-col ul li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 15px;
+}
+.foot-col .socialmedia a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: orange;
+    transition: all 0.2s ease;
+}

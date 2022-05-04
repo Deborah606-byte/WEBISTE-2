@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins";
+    height: 100vh;
+    background-image: url(../IMAGES/b5.webp);
+    color: white;
+}
+.navigationbar-container{
+    width: 100%;
+    background-color: bisque;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 0.5px;
+}.navlinks{
+    margin-left: auto;
+    list-style: none;
+    margin-top: 30px;
+}.navlinks li{
+    display: inline-block;
+}
+.navlinks li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: medium;
+    padding: 0 50px;
+} 
+h3{
+    margin-top: 150px;
+    text-align: center;
+    color: orange;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+}
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: orange;
+    cursor: default;
+    border-radius: 1rem;
+    text-align: center;
+    color: blue;
+}
+#question{
+    margin-bottom: 10px;
+}
+.choice{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    border-bottom: solid 0.3rem orangered;
+    width: 100%;
+    background: bisque;
+    border-radius: 1rem;
+}
+.choice:hover{
+    color: blue;
+}
+ol{
+    /* position: relative; */
+    padding: 0 1.5rem;
+    color: brown;
+}
+span{
+    display: block;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+#answer{
+    margin-top: 50px;
+}
+#stat{
+    margin-top: 50px;
+    color: rgb(6,17,168);
+}
+.buttons{
+    text-align: center;
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: orangered;
+    background: bisque;
+}
+button:active{
+    background: blue;
+}
+#scoreboard,#answerBank{
+    width: 50%;
+    background: orange;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    top: 50px;
+    display: none;
+    margin-top: 50px;
+}
+#score-title{
+    margin: 50px 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+#score-btn,#check-answer{
+    margin-top: 15px;
+}
+#score{
+    font-size: 40px;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: larger;
+}
+#answers{
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    margin-top: 80px;
+    color: bisque;
+    font-size: larger;
+    font-style: italic;
+}
+p a{
+    text-decoration: none;
+    color: orange;
+}
+hr{
+    margin-top: 100px;
+    border-top: 2px dashed orangered;
+}
+.container2{
+    max-width: 100%;
+    margin: auto;
+}
+.column{
+    display: flex;
+    flex: wrap;
+}
+.foot{
+    padding: 15px;
+}
+.foot-col{
+    width: 25%;
+}
+.foot-col{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    position: relative;
+    color: bisque;
+}
+.foot-col ul li:not(:last-child){
+    margin-bottom: 20px;
+}
+.foot-col ul{
+    list-style: none;
+}
+.foot-col ul li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 15px;
+}
+.foot-col .socialmedia a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: orange;
+    transition: all 0.2s ease;
+}

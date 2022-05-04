@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="navigationbar-container">
+            <a href="home.html"><img class="logo" src="../IMAGES/del.jpg" alt="CONCIERGE"></a>
+
+            <ul class="navlinks">
+                <li><a href="home.html">HOME</a></li>
+                <li ><a href="quiz.html">FAQ</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>  
+        </div>
+    </header>
+
+    <H3>CONTACT US</H3>
+    <form method="post" action="../PHP/contact-need.php">
+        <div class="container">
+        <label for="fname">FIRST NAME</label>
+        <input type="text" name="firstname">
+
+        <label for="lname">LAST NAME</label>
+        <input type="text" name="surname">
+
+        <label for="email">EMAIL</label>
+        <input type="email" name="email">
+
+        <label for="subject">SUBJECT</label>
+        <input type="text" name="subject">
+
+        <br>
+        <br>
+        <label for="concierge">CHOOSE A QUESTION</label>
+        <select id="concierge" name="concierge">
+        <option value="prices">Can I know the prices for a year?</option>
+        <option value="registration">Can registration be done in person?</option>
+        <option value="inperson">For my yoga classes, can I have my personal teacher?</option>
+        <option value="location">Where is your company located?</option>
+        <option value="policy">Can I know the policy for customers who want more privacy</option>
+        </select>
+
+        <textarea name="message" rows="10" cols="30">Additional Message</textarea>
+
+        <input type="submit" name="submit">
+        </div>
+    </form>
+
+    <br>
+    <hr>
+
+    <footer class="foot">
+        <div class="container2">
+            <div class="column">
+                <div class="foot-col">
+                    <h4>GET HELP</h4>
+                    <ul>
+                        <li><a href="quiz.html">FAQ</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>CONTACT DETAILS</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>LOCATION</h4>
+                    <ul>
+                        <li><a href="https://goo.gl/maps/zsFz7GwPxcCkuHgD9">Location</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>SOCIAL DETAILS</h4>
+                    <div class="socialmedia">
+                        <a href="https://www.facebook.com/deborah.paintsil.904"><i class="fab fa-facebook-f"></i></a>
+                           <a href="#"><i class="fab fa-whatsapp"></i></a>
+                           <a href="#"><i class="fab fa-telegram"></i></a>
+                           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
